@@ -1,0 +1,259 @@
+@media (max-width: 840px) {
+  /*begin hero*/
+  .hero {
+    padding: 40px 0;
+  }
+  .hero__frame {
+    width: 315px;
+    grid-template-areas: "content" "highlight" "button" "add-info";
+    row-gap: 40px;
+  }
+  .hero__content {
+    width: 100%;
+  }
+  .hero__button {
+    width: 100%;
+  }
+  .hero__additional-info li h3 {
+    font-size: 22px;
+  }
+  .hero__additional-info li span {
+    font-size: 16px;
+  }
+  .hero__highlight {
+    height: 330px;
+  }
+  .hero__image {
+    height: 221px;
+    width: 315px;
+  }
+  /*end hero*/
+  /*begin trending-collection*/
+  .trending-collection__headline, .how-it-work__headline {
+    width: 315px;
+  }
+  .trending-collection__heading {
+    font-size: 28px;
+  }
+  .trending-collection__subhead {
+    font-size: 16px;
+  }
+  .trending-collection__wrap-card {
+    width: 315px;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .trending-collection__card {
+    width: 100%;
+  }
+  .trending-collection__card:nth-child(2) {
+    display: none;
+  }
+  .trending-collection__photo-primary {
+    width: 315px;
+    height: 315px;
+  }
+  .trending-collection__frame {
+    width: 315px;
+  }
+  .trending-collection__frame img {
+    width: 95px;
+    height: 95px;
+  }
+  .trending-collection__number-additional {
+    width: 95px;
+    height: 95px;
+  }
+  /*end trending-collection*/
+  /*begin top rated artist*/
+  .top-rated-artists {
+    padding: 40px 0;
+    gap: 40px;
+  }
+  .top-rated-artists__wrap-headline-button {
+    width: 315px;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .top-rated-artists__wrapper, .discover-more__wrapper {
+    grid-template-areas: "headline" "list-box" "button";
+  }
+  .top-rated-artists__button {
+    width: 100%;
+  }
+  .top-rated-artists__headline {
+    width: 315px;
+  }
+  .top-rated-artists__wrap-card-grid {
+    width: 315px;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .top-rated-artists__wrap-card-grid :nth-child(5) {
+    display: none;
+  }
+  .top-rated-artists__card {
+    flex-direction: row;
+  }
+  .top-rated-artists__avatar {
+    width: 60px;
+    height: 60px;
+  }
+  .top-rated-artists__avatar img {
+    width: 60px;
+    height: 60px;
+  }
+  .top-rated-artists__ranking-number {
+    top: 10px;
+    left: 15px;
+  }
+  /*end top rated artist*/
+  /*begin browse category*/
+  .browse-category {
+    padding: 40px 0;
+    gap: 40px;
+  }
+  .browse-category__headline {
+    width: 315px;
+  }
+  .browse-category__wrap-card-grid {
+    width: 315px;
+    grid-template-columns: repeat(2, 148px);
+    gap: 20px;
+  }
+  .browse-category__wrap-photo-icon {
+    width: 148px;
+  }
+  .browse-category__photo {
+    width: 148px;
+  }
+  .browse-category__category-icon {
+    width: 148px;
+  }
+  .browse-category__card {
+    width: 148px;
+  }
+  /*end browse category*/
+  /*begin discover more NFTs*/
+  .discover-more {
+    padding: 40px 0 60px 0;
+    gap: 40px;
+  }
+  .discover-more__headline {
+    width: 315px;
+  }
+  .discover-more__button {
+    width: 100%;
+  }
+  .discover-more__wrap-card-row {
+    width: 315px;
+    flex-direction: column;
+  }
+  .discover-more__card {
+    width: 100%;
+  }
+  .discover-more__card:nth-child(3) {
+    display: flex;
+  }
+  /*end discover more NFTs*/
+  /*begin NFT highlight*/
+  .NFT-highlight__wrap-content {
+    padding: 120px 0 40px 0;
+  }
+  .NFT-highlight__frame {
+    width: 315px;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .NFT-highlight__wrap-auction-timer {
+    width: 100%;
+  }
+  .NFT-highlight__button {
+    width: 100%;
+  }
+  /*end NFT highlight*/
+  /*begin how it work*/
+  .how-it-work__wrap-card {
+    width: 315px;
+    flex-direction: column;
+  }
+  .how-it-work__card {
+    flex-direction: row;
+  }
+  .how-it-work__card img {
+    width: 100px;
+    height: 100px;
+  }
+  .how-it-work__card-detail {
+    width: 155px;
+    align-items: flex-start;
+  }
+  .how-it-work__card-desc {
+    text-align: left;
+  }
+  /*end how it word*/
+  /* begin subscribe widget*/
+  .subscribe-widget__wrap-content {
+    width: 315px;
+    padding: 0;
+    gap: 30px;
+    flex-direction: column;
+    background-color: var(--color-background);
+  }
+  .subscribe-widget__image {
+    height: 255px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .subscribe-widget__frame {
+    width: 100%;
+  }
+  .subscribe-widget__form-sub {
+    background-color: var(--color-background);
+  }
+  .subscribe-widget__form-sub input {
+    width: 100%;
+  }
+  .subscribe-widget__form-sub button {
+    width: 100%;
+    padding: 0 50px;
+  }
+  /*end subscribe widget*/
+  /*begin footer*/
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+  .footer__wrapper {
+    width: 315px;
+    gap: 49px;
+    align-items: flex-start;
+  }
+  .footer__wrap-content {
+    max-width: 315px;
+  }
+  .footer__form-sub {
+    width: 315px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #3B3B3B;
+    gap: 16px;
+  }
+  .footer__form-sub input {
+    width: 315px;
+    height: 46px;
+  }
+  .footer__form-sub button {
+    width: 315px;
+    height: 46px;
+  }
+  .footer__frame-end {
+    width: 315px;
+  }
+  .footer__divider {
+    width: 315px;
+  }
+  /*end footer*/
+}
+
+/*# sourceMappingURL=responsive-home-mobile.css.map */

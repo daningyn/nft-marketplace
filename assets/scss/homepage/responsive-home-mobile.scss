@@ -1,0 +1,358 @@
+@media (max-width: 840px) {
+
+  /*begin hero*/
+  .hero {
+    padding: 40px 0;
+
+    &__frame {
+      width: 315px;
+      grid-template-areas: 
+      "content"
+      "highlight"
+      "button"
+      "add-info";
+      row-gap: 40px;
+    }
+
+    &__content{
+      width: 100%;
+    }
+
+    &__button {
+      width: 100%;
+    }
+
+    &__additional-info {
+      li {
+        h3 {
+          font-size: 22px;
+        }
+
+        span {
+          font-size: 16px;
+        }
+      }
+    }
+
+    &__highlight {
+      height: 330px;
+    }
+
+    &__image {
+      height: 221px;
+      width: 315px;
+    }
+  }
+  /*end hero*/
+
+
+  /*begin trending-collection*/
+  .trending-collection {
+    &__headline {
+      width: 315px;
+    }
+
+    &__heading {
+      font-size: 28px;
+    }
+
+    &__subhead {
+      font-size: 16px;
+    }
+
+
+    &__wrap-card {
+      width: 315px;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    &__card{
+      width: 100%; 
+    }
+
+    &__card {
+      &:nth-child(2) {
+        display: none;
+      }
+    }
+
+    &__photo-primary{
+      width: 315px;
+      height: 315px;
+    }
+
+    &__frame{
+      width: 315px;
+      img{ 
+        width: 95px;
+        height: 95px;
+      }
+    }
+
+    &__number-additional{
+      width: 95px; 
+      height: 95px;
+    }
+  }
+  /*end trending-collection*/
+
+
+  /*begin top rated artist*/
+  .top-rated-artists {
+    padding: 40px 0;
+    gap: 40px;
+
+    &__wrap-headline-button {
+      width: 315px;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    &__wrapper{
+      grid-template-areas: 
+      "headline"
+      "list-box"
+      "button";
+    }
+
+    &__button {
+      width: 100%;
+    }
+
+    &__headline {
+      width: 315px;
+    }
+
+    &__wrap-card-grid {
+      width: 315px;
+      grid-template-columns: 1fr;
+      gap: 30px;
+      :nth-child(5){
+        display: none;
+      }
+    }
+
+
+    &__card {
+      flex-direction: row;
+    }
+
+    &__avatar {
+      width: 60px;
+      height: 60px;
+
+      img {
+        width: 60px;
+        height: 60px;
+      }
+    }
+
+    &__ranking-number {
+      top: 10px;
+      left: 15px;
+    }
+  }
+  /*end top rated artist*/
+
+
+  /*begin browse category*/
+  .browse-category {
+    padding: 40px 0;
+    gap: 40px;
+
+    &__headline {
+      width: 315px;
+    }
+
+    &__wrap-card-grid {
+      width: 315px;
+      grid-template-columns: repeat(2, 148px);
+      gap: 20px;
+    }
+
+    &__wrap-photo-icon{
+      width: 148px;
+    }
+
+    &__photo{
+      width: 148px;
+    }
+
+    &__category-icon{
+      width: 148px;
+    }
+
+    &__card{
+      width: 148px;
+    }
+  }
+  /*end browse category*/
+
+
+  /*begin discover more NFTs*/
+  .discover-more {
+    padding: 40px 0 60px 0;
+    gap: 40px;
+
+    &__wrapper{
+      @extend .top-rated-artists__wrapper;
+    }
+
+    &__headline {
+      width: 315px;
+    }
+
+    &__button {
+      width: 100%;
+    }
+
+    &__wrap-card-row {
+      width: 315px;
+      flex-direction: column;
+    }
+
+    &__card {
+      width: 100%;
+
+      &:nth-child(3) {
+        display: flex;
+      }
+    }
+  }
+  /*end discover more NFTs*/
+
+
+  /*begin NFT highlight*/
+  .NFT-highlight {
+    &__wrap-content {
+      padding: 120px 0 40px 0;
+    }
+
+    &__frame {
+      width: 315px;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    &__wrap-auction-timer {
+      width: 100%;
+    }
+
+    &__button {
+      width: 100%;
+    }
+  }
+  /*end NFT highlight*/
+
+
+  /*begin how it work*/
+  .how-it-work {
+    &__headline {
+      @extend .trending-collection__headline;
+    }
+
+    &__wrap-card {
+      width: 315px;
+      flex-direction: column;
+    }
+
+    &__card {
+      flex-direction: row;
+
+      img {
+        width: 100px;
+        height: 100px;
+      }
+
+      &-detail {
+        width: 155px;
+        align-items: flex-start;
+      }
+    }
+
+    &__card-desc {
+      text-align: left;
+    }
+  }
+  /*end how it word*/
+
+
+  /* begin subscribe widget*/
+  .subscribe-widget {
+
+    &__wrap-content {
+      width: 315px;
+      padding: 0;
+      gap: 30px;
+      flex-direction: column;
+      background-color: var(--color-background);
+    }
+
+    &__image {
+      height: 255px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    &__frame {
+      width: 100%;
+    }
+
+    &__form-sub {
+      background-color: var(--color-background);
+
+      input {
+        width: 100%;
+      }
+
+      button {
+        width: 100%;
+        padding: 0 50px;
+      }
+    }
+  }
+  /*end subscribe widget*/
+
+
+  /*begin footer*/
+  .footer {
+    display: flex;
+    justify-content: center;
+
+    &__wrapper {
+      width: 315px;
+      gap: 49px;
+      align-items: flex-start;
+    }
+
+    &__wrap-content{
+      max-width: 315px;
+    }
+
+    &__form-sub {
+      width: 315px;
+      flex-direction: column;
+      align-items: flex-start;
+      background-color: #3B3B3B;
+      gap: 16px;
+      input{
+        width: 315px;
+        height: 46px;
+      }
+      button{
+        width: 315px;
+        height: 46px;
+      }
+    }
+
+    &__frame-end {
+      width: 315px;
+    }
+
+    &__divider {
+      width: 315px;
+    }
+  }
+  /*end footer*/
+}
