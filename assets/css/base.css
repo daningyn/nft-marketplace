@@ -275,7 +275,7 @@ ul {
   align-items: flex-start;
   gap: 25px;
 }
-.footer__subscribe P {
+.footer__subscribe p {
   width: 330px;
 }
 .footer__wrap-info-form {
@@ -288,7 +288,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  align-self: stretch;
   border-radius: 20px;
   background: white;
 }
@@ -307,8 +306,8 @@ ul {
   padding: 0 50px;
 }
 .footer__frame-end {
+  width: 100%;
   display: flex;
-  width: 1049.414px;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
@@ -321,7 +320,7 @@ ul {
 }
 .footer__divider {
   background: #858584;
-  width: 1049.414px;
+  width: 100%;
   height: 1px;
 }
 
@@ -343,27 +342,26 @@ ul {
     height: 24px;
   }
   .navigation__img-logo img {
-    width: 24px;
-    height: 24px;
+    width: 100%;
+    height: 100%;
   }
   .navigation__img-name, .footer__img-name {
     width: 149.56px;
     height: 14.85px;
   }
   .navigation__img-name img, .footer__img-name img {
-    width: 149.56px;
-    height: 14.85px;
+    width: 100%;
+    height: 100%;
   }
   /*end navigation*/
   /*begin footer*/
-  .footer {
-    display: flex;
-    justify-content: center;
-  }
   .footer__wrapper {
-    width: 690px;
     gap: 49px;
     align-items: flex-start;
+  }
+  .footer__NTF-marketplace {
+    gap: 20px;
+    width: 100%;
   }
   .footer__wrap-content {
     display: flex;
@@ -371,11 +369,8 @@ ul {
     align-items: flex-start;
     gap: 30px;
   }
-  .footer__frame-end {
-    width: 690px;
-  }
-  .footer__divider {
-    width: 690px;
+  .footer__wrap-info-form p {
+    width: 100%;
   }
   /*end footer*/
 }
@@ -386,18 +381,6 @@ ul {
   }
   /*end navigation*/
   /*begin footer*/
-  .footer {
-    display: flex;
-    justify-content: center;
-  }
-  .footer__wrapper {
-    width: 315px;
-    gap: 49px;
-    align-items: flex-start;
-  }
-  .footer__wrap-content {
-    max-width: 315px;
-  }
   .footer__form-sub {
     width: 315px;
     flex-direction: column;
@@ -406,18 +389,12 @@ ul {
     gap: 16px;
   }
   .footer__form-sub input {
-    width: 315px;
+    width: 100%;
     height: 46px;
   }
   .footer__form-sub button {
-    width: 315px;
+    width: 100%;
     height: 46px;
-  }
-  .footer__frame-end {
-    width: 315px;
-  }
-  .footer__divider {
-    width: 315px;
   }
   /*end footer*/
 }

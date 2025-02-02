@@ -289,7 +289,7 @@ ul {
     align-items: flex-start;
     gap: 25px;
 
-    P {
+    p {
       width: 330px;
     }
   }
@@ -305,7 +305,6 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    align-self: stretch;
     border-radius: 20px;
     background: #ffff;
 
@@ -327,8 +326,8 @@ ul {
   }
 
   &__frame-end {
+    width: 100%;
     display: flex;
-    width: 1049.414px;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
@@ -343,7 +342,7 @@ ul {
 
   &__divider {
     background: #858584;
-    width: 1049.414px;
+    width: 100%;
     height: 1px;
   }
 }
@@ -370,8 +369,8 @@ ul {
       height: 24px;
 
       img {
-        width: 24px;
-        height: 24px;
+        width: 100%;
+        height: 100%;
       }
     }
 
@@ -380,8 +379,8 @@ ul {
       height: 14.85px;
 
       img {
-        width: 149.56px;
-        height: 14.85px;
+        width: 100%;
+        height: 100%;
       }
     }
   }
@@ -390,13 +389,14 @@ ul {
 
   /*begin footer*/
   .footer {
-    display: flex;
-    justify-content: center;
-
     &__wrapper {
-      width: 690px;
       gap: 49px;
       align-items: flex-start;
+    }
+
+    &__NTF-marketplace{
+      gap: 20px;
+      width: 100%;
     }
 
     &__wrap-content {
@@ -406,12 +406,10 @@ ul {
       gap: 30px;
     }
 
-    &__frame-end {
-      width: 690px;
-    }
-
-    &__divider {
-      width: 690px;
+    &__wrap-info-form{
+      p{
+        width: 100%;
+      }
     }
   }
 
@@ -425,21 +423,9 @@ ul {
     padding: 15px 30px;
   }
   /*end navigation*/
-
+  
   /*begin footer*/
   .footer {
-    display: flex;
-    justify-content: center;
-
-    &__wrapper {
-      width: 315px;
-      gap: 49px;
-      align-items: flex-start;
-    }
-
-    &__wrap-content {
-      max-width: 315px;
-    }
 
     &__form-sub {
       width: 315px;
@@ -447,28 +433,19 @@ ul {
       align-items: flex-start;
       background-color: #3B3B3B;
       gap: 16px;
-
-      input {
-        width: 315px;
+      input{
+        width: 100%;
         height: 46px;
       }
-
-      button {
-        width: 315px;
+      button{
+        width: 100%;
         height: 46px;
       }
     }
 
-    &__frame-end {
-      width: 315px;
-    }
-
-    &__divider {
-      width: 315px;
-    }
   }
-
   /*end footer*/
+
 }
 
 /*end responsive*/

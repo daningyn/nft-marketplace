@@ -5,7 +5,6 @@
     padding: 40px 0;
 
     &__frame {
-      width: 315px;
       grid-template-areas: 
       "content"
       "highlight"
@@ -34,13 +33,9 @@
       }
     }
 
-    &__highlight {
-      height: 330px;
-    }
-
     &__image {
-      height: 221px;
       width: 315px;
+      height: 221px;
     }
   }
   /*end hero*/
@@ -49,7 +44,7 @@
   /*begin trending-collection*/
   .trending-collection {
     &__headline {
-      width: 315px;
+      // width: 315px;
     }
 
     &__heading {
@@ -60,15 +55,9 @@
       font-size: 16px;
     }
 
-
     &__wrap-card {
-      width: 315px;
       gap: 30px;
       flex-wrap: wrap;
-    }
-
-    &__card{
-      width: 100%; 
     }
 
     &__card {
@@ -77,23 +66,10 @@
       }
     }
 
-    &__photo-primary{
-      width: 315px;
-      height: 315px;
-    }
-
     &__frame{
-      width: 315px;
-      img{ 
-        width: 95px;
-        height: 95px;
-      }
-    }
-
-    &__number-additional{
-      width: 95px; 
       height: 95px;
     }
+
   }
   /*end trending-collection*/
 
@@ -102,12 +78,6 @@
   .top-rated-artists {
     padding: 40px 0;
     gap: 40px;
-
-    &__wrap-headline-button {
-      width: 315px;
-      flex-direction: column;
-      gap: 30px;
-    }
 
     &__wrapper{
       grid-template-areas: 
@@ -121,7 +91,7 @@
     }
 
     &__headline {
-      width: 315px;
+      width: 100%;
     }
 
     &__wrap-card-grid {
@@ -132,26 +102,6 @@
         display: none;
       }
     }
-
-
-    &__card {
-      flex-direction: row;
-    }
-
-    &__avatar {
-      width: 60px;
-      height: 60px;
-
-      img {
-        width: 60px;
-        height: 60px;
-      }
-    }
-
-    &__ranking-number {
-      top: 10px;
-      left: 15px;
-    }
   }
   /*end top rated artist*/
 
@@ -161,30 +111,9 @@
     padding: 40px 0;
     gap: 40px;
 
-    &__headline {
-      width: 315px;
-    }
-
     &__wrap-card-grid {
-      width: 315px;
-      grid-template-columns: repeat(2, 148px);
+      grid-template-columns: repeat(2, 1fr);
       gap: 20px;
-    }
-
-    &__wrap-photo-icon{
-      width: 148px;
-    }
-
-    &__photo{
-      width: 148px;
-    }
-
-    &__category-icon{
-      width: 148px;
-    }
-
-    &__card{
-      width: 148px;
     }
   }
   /*end browse category*/
@@ -199,22 +128,15 @@
       @extend .top-rated-artists__wrapper;
     }
 
-    &__headline {
-      width: 315px;
+    &__headline{
+      width: 100%;
     }
 
     &__button {
       width: 100%;
     }
 
-    &__wrap-card-row {
-      width: 315px;
-      flex-direction: column;
-    }
-
     &__card {
-      width: 100%;
-
       &:nth-child(3) {
         display: flex;
       }
@@ -229,10 +151,11 @@
       padding: 120px 0 40px 0;
     }
 
-    &__frame {
-      width: 315px;
-      flex-direction: column;
-      gap: 30px;
+    &__content-main {
+      grid-template-areas: 
+      "info"
+      "timer"
+      "btn";
     }
 
     &__wrap-auction-timer {
@@ -253,7 +176,6 @@
     }
 
     &__wrap-card {
-      width: 315px;
       flex-direction: column;
     }
 
@@ -266,7 +188,6 @@
       }
 
       &-detail {
-        width: 155px;
         align-items: flex-start;
       }
     }
@@ -282,7 +203,6 @@
   .subscribe-widget {
 
     &__wrap-content {
-      width: 315px;
       padding: 0;
       gap: 30px;
       flex-direction: column;
@@ -290,9 +210,9 @@
     }
 
     &__image {
-      height: 255px;
+      flex: auto;
       width: 100%;
-      object-fit: cover;
+      height: 255px;
     }
 
     &__frame {
@@ -313,46 +233,4 @@
     }
   }
   /*end subscribe widget*/
-
-
-  /*begin footer*/
-  .footer {
-    display: flex;
-    justify-content: center;
-
-    &__wrapper {
-      width: 315px;
-      gap: 49px;
-      align-items: flex-start;
-    }
-
-    &__wrap-content{
-      max-width: 315px;
-    }
-
-    &__form-sub {
-      width: 315px;
-      flex-direction: column;
-      align-items: flex-start;
-      background-color: #3B3B3B;
-      gap: 16px;
-      input{
-        width: 315px;
-        height: 46px;
-      }
-      button{
-        width: 315px;
-        height: 46px;
-      }
-    }
-
-    &__frame-end {
-      width: 315px;
-    }
-
-    &__divider {
-      width: 315px;
-    }
-  }
-  /*end footer*/
 }

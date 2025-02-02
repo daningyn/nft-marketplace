@@ -1,20 +1,6 @@
 /*responsive*/
 @media (max-width: 1200px) {
-  /*begin navigation*/
-  .navigation__list {
-    display: none;
-  }
-  .navigation__icon-responsive {
-    display: block;
-  }
-  /*end navigation*/
   /*begin hero*/
-  .hero__frame {
-    width: 690px;
-  }
-  .hero__content {
-    width: 330px;
-  }
   .hero__title {
     font-size: 38px;
   }
@@ -32,7 +18,6 @@
   }
   .hero__image {
     height: 221px;
-    width: 330px;
   }
   /*end hero*/
   /*begin trending-collection*/
@@ -46,24 +31,17 @@
     font-size: 16px;
   }
   .trending-collection__wrap-card, .discover-more__wrap-card-row {
-    width: 690px;
     gap: 30px;
     flex-wrap: wrap;
   }
   .trending-collection__card:nth-child(3) {
     display: none;
   }
-  .trending-collection__headline {
-    width: 690px;
-  }
   /*end trending-collection*/
   /*begin top rated artist*/
   .top-rated-artists {
     padding: 40px 0;
     gap: 40px;
-  }
-  .top-rated-artists__wrap-headline-button, .discover-more__wrap-headline-button {
-    width: 690px;
   }
   .top-rated-artists__headline, .discover-more__headline {
     width: 350px;
@@ -75,7 +53,6 @@
     font-size: 16px;
   }
   .top-rated-artists__wrap-card-grid {
-    width: 690px;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
@@ -104,10 +81,6 @@
     width: 60px;
     height: 60px;
   }
-  .top-rated-artists__avatar img {
-    width: 60px;
-    height: 60px;
-  }
   .top-rated-artists__ranking-number {
     top: 10px;
     left: 15px;
@@ -118,24 +91,19 @@
     padding: 40px 0;
     gap: 40px;
   }
-  .browse-category__headline {
-    width: 690px;
-  }
   .browse-category__heading {
     font-size: 28px;
   }
   .browse-category__wrap-card-grid {
-    width: 690px;
-    grid-template-columns: repeat(4, 150px);
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 209.4px;
   }
   .browse-category__wrap-photo-icon {
-    width: 150px;
     height: 142px;
   }
   .browse-category__photo, .browse-category__category-icon {
-    width: 150px;
-    height: 142px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
   }
   .browse-category__category-icon {
@@ -159,9 +127,6 @@
   }
   /*end discover more NFTs*/
   /*begin NFT highlight*/
-  .NFT-highlight__frame {
-    width: 690px;
-  }
   .NFT-highlight__title {
     font-size: 38px;
   }
@@ -170,12 +135,6 @@
   .how-it-work {
     padding: 40px 0;
     gap: 40px;
-  }
-  .how-it-work__headline {
-    width: 690px;
-  }
-  .how-it-work__wrap-card {
-    width: 690px;
   }
   .how-it-work__card {
     padding: 20px;
@@ -194,17 +153,8 @@
   /*end how it word*/
   /* begin subscribe widget*/
   .subscribe-widget__wrap-content {
-    width: 690px;
     padding: 40px 30px;
     gap: 30px;
-  }
-  .subscribe-widget__image {
-    height: 100%;
-    min-width: 300px;
-    object-fit: cover;
-  }
-  .subscribe-widget__frame {
-    width: 300px;
   }
   .subscribe-widget__form-sub {
     flex-direction: column;
@@ -221,29 +171,6 @@
     height: 46px;
   }
   /*end subscribe widget*/
-  /*begin footer*/
-  .footer {
-    display: flex;
-    justify-content: center;
-  }
-  .footer__wrapper {
-    width: 690px;
-    gap: 49px;
-    align-items: flex-start;
-  }
-  .footer__wrap-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 30px;
-  }
-  .footer__frame-end {
-    width: 690px;
-  }
-  .footer__divider {
-    width: 690px;
-  }
-  /*end footer*/
 }
 /*end responsive*/
 
