@@ -1,0 +1,99 @@
+@media (max-width: 1200px) {
+  /*head*/
+  .head {
+    padding: 40px 0px;
+  }
+  .head__heading {
+    font-size: 38px;
+  }
+  .head__subhead {
+    font-size: 16px;
+  }
+  /*end head*/
+  /*rankings*/
+  .rankings {
+    padding-bottom: 40px;
+  }
+  .rankings__tab {
+    font-size: 16px;
+  }
+  .rankings__head-table th {
+    font-size: 12px;
+  }
+  .rankings__rank-number--body {
+    background: #3B3B3B;
+  }
+  .rankings__wrap-artist {
+    gap: 12px;
+  }
+  .rankings__wrap-artist--body h5 {
+    font-size: 22px;
+  }
+  .rankings__wrap-artist--body img {
+    width: 24px;
+    height: 24px;
+  }
+  .rankings__sold {
+    display: none;
+  }
+  .rankings__change {
+    width: 120px;
+  }
+  .rankings__change span {
+    font-size: 16px;
+  }
+  .rankings__volume {
+    width: 100px;
+  }
+  .rankings__volume span {
+    font-size: 16px;
+  }
+  .rankings__change--body {
+    color: #00AC4F;
+  }
+  .rankings__wrap-artist {
+    flex: 1;
+  }
+  /*end rankings*/
+}
+@media (max-width: 840px) {
+  /*head*/
+  .head {
+    padding: 30px 0px;
+  }
+  .head__heading {
+    font-size: 28px;
+  }
+  /*end head*/
+  /*rankings*/
+  .rankings__change {
+    display: none;
+  }
+  .rankings__row-table {
+    padding: 12px 10px;
+  }
+  .rankings__wrap-artist--body h5 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .rankings__rank-number {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  .rankings__rank-number span {
+    font-size: 12px;
+  }
+  .rankings__volume {
+    font-size: 12px;
+  }
+  .rankings__short-time {
+    display: block;
+  }
+  .rankings__full-time {
+    display: none;
+  }
+  /*end rankings*/
+}
+
+/*# sourceMappingURL=responsive-ranking.css.map */

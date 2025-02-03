@@ -1,0 +1,143 @@
+/*head*/
+.head {
+  padding: 80px 0px;
+}
+.head__headline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.head__heading {
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  text-transform: capitalize;
+}
+.head__subhead {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+/*end head*/
+/*rankings*/
+.rankings {
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.rankings__tabs {
+  display: flex;
+}
+.rankings__tab {
+  flex: 1;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #858584;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+.rankings__tab--active {
+  border-bottom: 2px solid #858584;
+  color: var(--color-text);
+}
+.rankings table, .rankings tbody {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.rankings__row-table {
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.rankings__row-table--body {
+  background-color: #3B3B3B;
+}
+.rankings__head-table {
+  border: 1px solid #3B3B3B;
+}
+.rankings__head-table th {
+  text-align: start;
+  color: #858584;
+  font-family: var(--font-other);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.rankings__rank-number {
+  width: 30px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rankings__rank-number--body {
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--color-background);
+  height: 30px;
+}
+.rankings__rank-number--body span {
+  text-align: start;
+  color: #858584;
+  font-family: var(--font-other);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.rankings__wrap-artist--body {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.rankings__wrap-artist--body h5 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+.rankings__wrap-artist--body img {
+  width: 60px;
+  object-fit: cover;
+  height: 60px;
+  border-radius: 50%;
+}
+.rankings__change, .rankings__sold {
+  width: 180px;
+  padding-right: 20px;
+}
+.rankings__change, .rankings__sold, .rankings__volume {
+  font-family: var(--font-other);
+  width: 160px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.rankings__change--body {
+  color: #00AC4F;
+}
+.rankings__wrap-artist {
+  flex: 1;
+}
+.rankings__short-time {
+  display: none;
+}
+
+/*end rankings*/
+
+/*# sourceMappingURL=ranking.css.map */
