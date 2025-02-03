@@ -1,0 +1,46 @@
+@media (max-width: 1200px) {
+  .connect-wallet-and-cre-acc {
+    gap: 40px;
+  }
+  .connect-wallet-and-cre-acc__image-main--connect-wallet {
+    height: 530px;
+  }
+  .connect-wallet-and-cre-acc__image-main--cre-acc {
+    height: 615px;
+  }
+  .connect-wallet-and-cre-acc__headline {
+    width: 325px;
+  }
+  .connect-wallet-and-cre-acc__heading {
+    font-size: 38px;
+  }
+  .connect-wallet-and-cre-acc__subhead {
+    font-size: 16px;
+  }
+}
+@media (max-width: 840px) {
+  .connect-wallet-and-cre-acc {
+    flex-direction: column;
+  }
+  .connect-wallet-and-cre-acc__image-main {
+    width: 100%;
+    height: 375px;
+  }
+  .connect-wallet-and-cre-acc__connect {
+    padding: 0 0 40px 0;
+    width: 315px;
+    gap: 30px;
+    align-items: center;
+  }
+  .connect-wallet-and-cre-acc__headline {
+    width: 100%;
+  }
+  .connect-wallet-and-cre-acc__wrap-content {
+    width: 100%;
+  }
+  .connect-wallet-and-cre-acc__wallet-options {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=responsive-connect-wallet-and-cre-acc.css.map */
