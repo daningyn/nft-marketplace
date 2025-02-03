@@ -1,0 +1,272 @@
+/*trans*/
+.trans, .ntf-card__card {
+  transition: all 0.3s ease;
+}
+.trans:hover, .ntf-card__card:hover {
+  transform: scale(0.95);
+}
+
+/*end trans*/
+/*head*/
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.heading {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: capitalize;
+}
+
+.subhead {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+
+/*end head*/
+/*back-ground*/
+.img-back-ground {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+/*end back-ground*/
+/*profile-image*/
+.profile-image {
+  margin-top: -70px;
+  display: flex;
+}
+.profile-image img {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+/*end profile-image*/
+/*artist-info*/
+.artist-info {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.artist-info__wrap-name-and-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.artist-info__name {
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  text-transform: capitalize;
+}
+.artist-info__wrap-button {
+  display: flex;
+  gap: 20px;
+}
+.artist-info__wrap-button a {
+  padding: 0 50px;
+}
+.artist-info__wrap-button a:nth-child(2) {
+  background-color: var(--color-background);
+  border: 2px solid var(--color-main);
+}
+.artist-info__info-main {
+  max-width: 599px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+.artist-info__list-number {
+  max-width: 510px;
+  display: flex;
+  gap: 30px;
+}
+.artist-info__item-number {
+  flex: 1 0 0;
+}
+.artist-info__number {
+  font-family: var(--font-other);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+.artist-info__text {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+.artist-info__add-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.artist-info__add-info p {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+.artist-info h5 {
+  color: #858584;
+  font-family: var(--font-other);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+.artist-info__wrap-social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.artist-info__social-media {
+  display: flex;
+  gap: 10px;
+}
+
+/*end artist-info*/
+/*frame*/
+.frame {
+  border-top: 1px solid #3B3B3B;
+}
+.frame__tab-list {
+  margin-top: 10px;
+  display: flex;
+}
+.frame__tab {
+  flex: 1 0 0;
+  display: flex;
+  height: 60px;
+  padding: 0px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.frame__tab--active {
+  border-bottom: 2px solid #858584;
+}
+.frame__tab--active .frame__text {
+  color: var(--color-text);
+}
+.frame__text {
+  color: #858584;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+.frame__number {
+  border-radius: 20px;
+  padding: 5px 10px;
+  background: #858584;
+  font-family: var(--font-other);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+/*end frame*/
+/*NFT List card*/
+.ntf-card {
+  padding: 80px 0;
+}
+.ntf-card__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.ntf-card__card {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+}
+.ntf-card__image-main {
+  height: 296px;
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  object-fit: cover;
+}
+.ntf-card__content {
+  flex: 1;
+  display: flex;
+  padding: 20px 30px 25px 30px;
+  flex-direction: column;
+  gap: 25px;
+  background: #3B3B3B;
+  border-radius: 0 0 20px 20px;
+}
+.ntf-card__artist-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.ntf-card__artist-info h3 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+.ntf-card__wrap-avatar-name {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.ntf-card__wrap-avatar-name span {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.ntf-card__avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 124px;
+  object-fit: cover;
+}
+.ntf-card__addition-info {
+  display: flex;
+  justify-content: space-between;
+}
+.ntf-card__info-item {
+  font-family: var(--font-other);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.ntf-card__info-item-title {
+  color: #858584;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.ntf-card__info-item-value {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+/*end NFT List card*/
+
+/*# sourceMappingURL=artist-page.css.map */
