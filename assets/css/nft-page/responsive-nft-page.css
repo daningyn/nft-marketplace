@@ -1,0 +1,89 @@
+@media (max-width: 1200px) {
+  /*img-back-ground*/
+  .img-back-ground {
+    height: 420px;
+  }
+  /*end img-back-ground*/
+  /*NFT-info*/
+  .NFT-info__wrapper {
+    column-gap: 30px;
+  }
+  .NFT-info__wrapper h5 {
+    font-size: 16px;
+  }
+  .NFT-info__headline h2 {
+    font-size: 38px;
+  }
+  .NFT-info__headline p {
+    font-size: 16px;
+  }
+  .NFT-info__desc {
+    gap: 10px;
+  }
+  .NFT-info__desc p {
+    font-size: 16px;
+  }
+  .NFT-info__artist-card h5 {
+    font-weight: 400;
+  }
+  .NFT-info__website-link {
+    font-size: 16px;
+  }
+  .NFT-info__website-link img {
+    width: 24px;
+    height: 24px;
+  }
+  .NFT-info__wrap-btn {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /*end NFT-info*/
+  /*NFT List card*/
+  .ntf-card__heading {
+    font-size: 28px;
+  }
+  /*end NFT List card*/
+}
+@media (max-width: 840px) {
+  /*img-back-ground*/
+  .img-back-ground {
+    height: 320px;
+  }
+  /*end img-back-ground*/
+  /*NFT-info*/
+  .NFT-info__wrapper {
+    grid-template-areas: "headline" "timer" "info";
+  }
+  .NFT-info__wrapper h5 {
+    font-size: 16px;
+  }
+  .NFT-info__headline h2 {
+    font-size: 28px;
+  }
+  .NFT-info__wrap-btn {
+    flex-direction: column;
+  }
+  /*end NFT-info*/
+  /*NFT List card*/
+  .ntf-card__wrapper-all {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .ntf-card__wrapper {
+    grid-column: 1/2;
+    width: 315px;
+  }
+  .ntf-card__btn {
+    justify-self: auto;
+    grid-row: 3/4;
+  }
+  .ntf-card__image-main {
+    height: 238px;
+  }
+  .ntf-card__info-item-value {
+    font-size: 12px;
+  }
+  /*end NFT List card*/
+}
+
+/*# sourceMappingURL=responsive-nft-page.css.map */
