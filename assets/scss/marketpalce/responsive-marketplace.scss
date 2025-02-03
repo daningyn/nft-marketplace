@@ -1,0 +1,52 @@
+@media (max-width: 1200px) {
+  /*top-marketplace*/
+.top-marketplace {
+  &__heading {
+    font-size: 38px;
+  }
+
+  &__subhead {
+    font-size: 16px;
+  }
+}
+/*end top-marketplace*/
+
+/*frame*/
+.frame {
+  &__text {
+    font-size: 16px
+  }
+}
+/*end frame*/
+}
+
+@media (max-width: 840px) {
+   /*top-marketplace*/
+.top-marketplace {
+
+  &__heading {
+    font-size: 28px;
+  }
+
+}
+/*end top-marketplace*/
+
+/*NFT List card*/
+.ntf-card {
+  &__image-main {
+    height: 238px;
+  }
+  &__info-item-value{
+    font-size: 12px;
+  }
+}
+/*end NFT List card*/
+
+/*frame*/
+.frame {
+  &__number{
+    display: none;
+  }
+}
+/*end frame*/
+}

@@ -1,0 +1,37 @@
+@media (max-width: 1200px) {
+  /*top-marketplace*/
+  .top-marketplace__heading {
+    font-size: 38px;
+  }
+  .top-marketplace__subhead {
+    font-size: 16px;
+  }
+  /*end top-marketplace*/
+  /*frame*/
+  .frame__text {
+    font-size: 16px;
+  }
+  /*end frame*/
+}
+@media (max-width: 840px) {
+  /*top-marketplace*/
+  .top-marketplace__heading {
+    font-size: 28px;
+  }
+  /*end top-marketplace*/
+  /*NFT List card*/
+  .ntf-card__image-main {
+    height: 238px;
+  }
+  .ntf-card__info-item-value {
+    font-size: 12px;
+  }
+  /*end NFT List card*/
+  /*frame*/
+  .frame__number {
+    display: none;
+  }
+  /*end frame*/
+}
+
+/*# sourceMappingURL=responsive-marketplace.css.map */
