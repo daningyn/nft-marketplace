@@ -1,0 +1,137 @@
+@media (max-width: 1200px) {
+
+  /*head*/
+  .head {
+    padding: 40px 0px;
+
+    &__heading {
+      font-size: 38px;
+    }
+
+    &__subhead {
+      font-size: 16px;
+    }
+  }
+  /*end head*/
+
+  /*rankings*/
+  .rankings {
+    padding-bottom: 40px;
+
+    &__tab {
+      font-size: 16px;
+    }
+
+    &__head-table th {
+      font-size: 12px;
+    }
+
+    &__rank-number {
+      &--body {
+        background: #3B3B3B;
+      }
+    }
+
+    &__wrap-artist {
+      gap: 12px;
+      &--body {
+        h5 {
+          font-size: 22px;
+        }
+
+        img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+
+    &__sold {
+      display: none;
+    }
+
+    &__change {
+      width: 120px;
+
+      span {
+        font-size: 16px;
+      }
+    }
+
+    &__volume {
+      width: 100px;
+
+      span {
+        font-size: 16px;
+      }
+    }
+
+    &__change {
+      &--body {
+        color: #00AC4F;
+      }
+    }
+
+    &__wrap-artist {
+      flex: 1;
+    }
+
+  }
+
+  /*end rankings*/
+}
+
+@media (max-width: 840px) {
+
+  /*head*/
+  .head {
+    padding: 30px 0px;
+
+    &__heading {
+      font-size: 28px;
+    }
+  }
+  /*end head*/
+
+  /*rankings*/
+  .rankings{
+    &__change{
+      display: none;
+    }
+    
+    &__row-table{
+      padding: 12px 10px;
+    }
+
+    &__wrap-artist {
+      &--body {
+        h5 {
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+    }
+
+    &__rank-number {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+      span{
+        font-size: 12px;
+      }
+    }
+
+    &__volume{
+      font-size: 12px;
+    }
+
+    &__short-time{
+      display: block;
+    }
+
+    &__full-time{
+      display: none;
+    }
+  }
+  /*end rankings*/
+}
