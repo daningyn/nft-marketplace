@@ -1,0 +1,335 @@
+/*trans*/
+.trans, .ntf-card__card {
+  transition: all 0.3s ease;
+}
+.trans:hover, .ntf-card__card:hover {
+  transform: scale(0.95);
+}
+
+/*end trans*/
+/*head*/
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.heading {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: capitalize;
+}
+
+.subhead {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+
+/*end head*/
+/*img-back-ground*/
+.img-back-ground {
+  height: 560px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*end img-back-ground*/
+/*NFT-info*/
+.NFT-info {
+  padding: 40px 0;
+}
+.NFT-info__wrapper {
+  display: grid;
+  grid-template-areas: "headline timer" "info timer";
+  row-gap: 30px;
+  column-gap: 150px;
+}
+.NFT-info__wrapper h5 {
+  color: #858584;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  text-transform: capitalize;
+  font-family: var(--font-other);
+}
+.NFT-info__headline {
+  grid-area: headline;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.NFT-info__headline h2 {
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  text-transform: capitalize;
+}
+.NFT-info__headline p {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #858584;
+}
+.NFT-info__info-main {
+  grid-area: info;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+.NFT-info__cre-by {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.NFT-info__desc {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.NFT-info__desc p {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35.2px;
+}
+.NFT-info__artist-card {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.NFT-info__artist-card img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.NFT-info__artist-card h5 {
+  font-family: var(--font-main);
+  color: var(--color-text);
+  font-weight: 600;
+}
+.NFT-info__details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.NFT-info__website-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.NFT-info__website-link img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+.NFT-info__tags {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.NFT-info__wrap-btn {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+}
+.NFT-info__wrap-btn a {
+  height: 46px;
+  border-radius: 20px;
+  background: #3B3B3B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+}
+.NFT-info__wrap-btn a span {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+.NFT-info__wrapper-right {
+  grid-area: timer;
+}
+.NFT-info__wrap-auction-timer-and-button {
+  padding: 30px;
+  width: 295px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 20px;
+  background: #3B3B3B;
+}
+.NFT-info__wrap-auction-timer-and-button a {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+.NFT-info__wrap-auction-timer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.NFT-info__auction-timer-title {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  font-family: var(--font-other);
+}
+.NFT-info__timer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.NFT-info__timer-top, .NFT-info__timer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.NFT-info__timer-top {
+  font-family: var(--font-other);
+}
+.NFT-info__timer-top h3 {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  /* 45.6px */
+  text-transform: capitalize;
+}
+.NFT-info__timer-top h4 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 39.2px */
+  text-transform: capitalize;
+}
+.NFT-info__timer-bottom {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+}
+
+/*end NFT-info*/
+/*NFT List card*/
+.ntf-card {
+  padding: 80px 0;
+}
+.ntf-card__wrapper-all {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 60px;
+}
+.ntf-card__heading {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: capitalize;
+}
+.ntf-card__btn {
+  justify-self: end;
+  background: var(--color-background);
+  border: 2px solid var(--color-main);
+  padding: 0 50px;
+}
+.ntf-card__wrapper {
+  grid-column: 1/3;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 60px;
+}
+.ntf-card__card {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+}
+.ntf-card__image-main {
+  height: 296px;
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  object-fit: cover;
+}
+.ntf-card__content {
+  flex: 1;
+  display: flex;
+  padding: 20px 30px 25px 30px;
+  flex-direction: column;
+  gap: 25px;
+  background: #3B3B3B;
+  border-radius: 0 0 20px 20px;
+}
+.ntf-card__artist-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.ntf-card__artist-info h3 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+.ntf-card__wrap-avatar-name {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.ntf-card__wrap-avatar-name span {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.ntf-card__avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 124px;
+  object-fit: cover;
+}
+.ntf-card__addition-info {
+  display: flex;
+  justify-content: space-between;
+}
+.ntf-card__info-item {
+  font-family: var(--font-other);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.ntf-card__info-item-title {
+  color: #858584;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.ntf-card__info-item-value {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+/*end NFT List card*/
+
+/*# sourceMappingURL=nft-page.css.map */
