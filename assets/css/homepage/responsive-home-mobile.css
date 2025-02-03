@@ -1,0 +1,153 @@
+@media (max-width: 840px) {
+  /*begin hero*/
+  .hero {
+    padding: 40px 0;
+  }
+  .hero__frame {
+    grid-template-areas: "content" "highlight" "button" "add-info";
+    row-gap: 40px;
+  }
+  .hero__content {
+    width: 100%;
+  }
+  .hero__button {
+    width: 100%;
+  }
+  .hero__additional-info li h3 {
+    font-size: 22px;
+  }
+  .hero__additional-info li span {
+    font-size: 16px;
+  }
+  .hero__image {
+    width: 315px;
+    height: 221px;
+  }
+  /*end hero*/
+  /*begin trending-collection*/
+  .trending-collection__heading {
+    font-size: 28px;
+  }
+  .trending-collection__subhead {
+    font-size: 16px;
+  }
+  .trending-collection__wrap-card {
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .trending-collection__card:nth-child(2) {
+    display: none;
+  }
+  .trending-collection__frame {
+    height: 95px;
+  }
+  /*end trending-collection*/
+  /*begin top rated artist*/
+  .top-rated-artists {
+    padding: 40px 0;
+    gap: 40px;
+  }
+  .top-rated-artists__wrapper, .discover-more__wrapper {
+    grid-template-areas: "headline" "list-box" "button";
+  }
+  .top-rated-artists__button {
+    width: 100%;
+  }
+  .top-rated-artists__headline {
+    width: 100%;
+  }
+  .top-rated-artists__wrap-card-grid {
+    width: 315px;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .top-rated-artists__wrap-card-grid :nth-child(5) {
+    display: none;
+  }
+  /*end top rated artist*/
+  /*begin browse category*/
+  .browse-category {
+    padding: 40px 0;
+    gap: 40px;
+  }
+  .browse-category__wrap-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  /*end browse category*/
+  /*begin discover more NFTs*/
+  .discover-more {
+    padding: 40px 0 60px 0;
+    gap: 40px;
+  }
+  .discover-more__headline {
+    width: 100%;
+  }
+  .discover-more__button {
+    width: 100%;
+  }
+  .discover-more__card:nth-child(3) {
+    display: flex;
+  }
+  /*end discover more NFTs*/
+  /*begin NFT highlight*/
+  .NFT-highlight__wrap-content {
+    padding: 120px 0 40px 0;
+  }
+  .NFT-highlight__content-main {
+    grid-template-areas: "info" "timer" "btn";
+  }
+  .NFT-highlight__wrap-auction-timer {
+    width: 100%;
+  }
+  .NFT-highlight__button {
+    width: 100%;
+  }
+  /*end NFT highlight*/
+  /*begin how it work*/
+  .how-it-work__wrap-card {
+    flex-direction: column;
+  }
+  .how-it-work__card {
+    flex-direction: row;
+  }
+  .how-it-work__card img {
+    width: 100px;
+    height: 100px;
+  }
+  .how-it-work__card-detail {
+    align-items: flex-start;
+  }
+  .how-it-work__card-desc {
+    text-align: left;
+  }
+  /*end how it word*/
+  /* begin subscribe widget*/
+  .subscribe-widget__wrap-content {
+    padding: 0;
+    gap: 30px;
+    flex-direction: column;
+    background-color: var(--color-background);
+  }
+  .subscribe-widget__image {
+    flex: auto;
+    width: 100%;
+    height: 255px;
+  }
+  .subscribe-widget__frame {
+    width: 100%;
+  }
+  .subscribe-widget__form-sub {
+    background-color: var(--color-background);
+  }
+  .subscribe-widget__form-sub input {
+    width: 100%;
+  }
+  .subscribe-widget__form-sub button {
+    width: 100%;
+    padding: 0 50px;
+  }
+  /*end subscribe widget*/
+}
+
+/*# sourceMappingURL=responsive-home-mobile.css.map */

@@ -1,0 +1,33 @@
+/*trans*/
+.trans{
+  transition: all 0.3s ease;
+  &:hover{
+      transform: scale(0.95);
+  }
+}
+/*end trans*/
+
+/*head*/
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.heading {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: capitalize;
+}
+
+.subhead {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+/*end head*/ 
